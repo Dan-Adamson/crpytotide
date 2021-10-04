@@ -1,0 +1,31 @@
+
+.bacground-gradient-red {
+	background: linear-gradient(-45deg,  hsla(340, 82%, 76%, 0.411), #202020);
+	background-size: 100% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+.bacground-gradient-green {
+	background: linear-gradient(-45deg,  hsla(174, 76%, 49%, 0.39), #202020);
+	background-size: 200% 200%;
+	animation: gradient 5s ease infinite;
+}
+
+/* Changed to -x and -y for safari support */
+@keyframes gradient {
+	0% {
+		/* background-position: 0% 25%; */
+        background-position-x: 15%;
+        background-position-y: 15%;
+	}
+    40% {
+		/* background-position: 0% 0%; */
+        background-position-x: 50%;
+        background-position-y: 50%;
+	}
+	100% {
+		/* background-position: 0% 25%; */
+        background-position-x: 15%;
+        background-position-y: 15%;
+	}
+}

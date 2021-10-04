@@ -1,0 +1,13 @@
+
+.custom-navbar {
+    background-color: #121212;
+    
+}
+
+.custom-navbar-brand {
+    color: #BB86FC;
+}
+
+.custom-navbar-brand a:hover{
+    color: white;
+}
